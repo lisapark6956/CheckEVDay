@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FEA5D582BA2F34D00EB8D5A /* CheckEVDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */; };
+		5FEA5D5A2BA2F34D00EB8D5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D592BA2F34D00EB8D5A /* ContentView.swift */; };
+		5FEA5D5C2BA2F34D00EB8D5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D5B2BA2F34D00EB8D5A /* Item.swift */; };
+		5FEA5D5E2BA2F34F00EB8D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */; };
+		5FEA5D612BA2F34F00EB8D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEA5D602BA2F34F00EB8D5A /* Preview Assets.xcassets */; };
+		5FEA5D6B2BA2F35000EB8D5A /* CheckEVDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D6A2BA2F35000EB8D5A /* CheckEVDayTests.swift */; };
+		5FEA5D752BA2F35000EB8D5A /* CheckEVDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D742BA2F35000EB8D5A /* CheckEVDayUITests.swift */; };
+		5FEA5D772BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D762BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FEA5D672BA2F35000EB8D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FEA5D4C2BA2F34D00EB8D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEA5D532BA2F34D00EB8D5A;
+			remoteInfo = CheckEVDay;
+		};
+		5FEA5D712BA2F35000EB8D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FEA5D4C2BA2F34D00EB8D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FEA5D532BA2F34D00EB8D5A;
+			remoteInfo = CheckEVDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FEA5D542BA2F34D00EB8D5A /* CheckEVDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckEVDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayApp.swift; sourceTree = "<group>"; };
+		5FEA5D592BA2F34D00EB8D5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FEA5D5B2BA2F34D00EB8D5A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FEA5D602BA2F34F00EB8D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FEA5D662BA2F35000EB8D5A /* CheckEVDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckEVDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEA5D6A2BA2F35000EB8D5A /* CheckEVDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayTests.swift; sourceTree = "<group>"; };
+		5FEA5D702BA2F35000EB8D5A /* CheckEVDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckEVDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEA5D742BA2F35000EB8D5A /* CheckEVDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayUITests.swift; sourceTree = "<group>"; };
+		5FEA5D762BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FEA5D512BA2F34D00EB8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEA5D632BA2F35000EB8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEA5D6D2BA2F35000EB8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FEA5D4B2BA2F34D00EB8D5A = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D562BA2F34D00EB8D5A /* CheckEVDay */,
+				5FEA5D692BA2F35000EB8D5A /* CheckEVDayTests */,
+				5FEA5D732BA2F35000EB8D5A /* CheckEVDayUITests */,
+				5FEA5D552BA2F34D00EB8D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FEA5D552BA2F34D00EB8D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D542BA2F34D00EB8D5A /* CheckEVDay.app */,
+				5FEA5D662BA2F35000EB8D5A /* CheckEVDayTests.xctest */,
+				5FEA5D702BA2F35000EB8D5A /* CheckEVDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FEA5D562BA2F34D00EB8D5A /* CheckEVDay */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */,
+				5FEA5D592BA2F34D00EB8D5A /* ContentView.swift */,
+				5FEA5D5B2BA2F34D00EB8D5A /* Item.swift */,
+				5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */,
+				5FEA5D5F2BA2F34F00EB8D5A /* Preview Content */,
+			);
+			path = CheckEVDay;
+			sourceTree = "<group>";
+		};
+		5FEA5D5F2BA2F34F00EB8D5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D602BA2F34F00EB8D5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FEA5D692BA2F35000EB8D5A /* CheckEVDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D6A2BA2F35000EB8D5A /* CheckEVDayTests.swift */,
+			);
+			path = CheckEVDayTests;
+			sourceTree = "<group>";
+		};
+		5FEA5D732BA2F35000EB8D5A /* CheckEVDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D742BA2F35000EB8D5A /* CheckEVDayUITests.swift */,
+				5FEA5D762BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift */,
+			);
+			path = CheckEVDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FEA5D532BA2F34D00EB8D5A /* CheckEVDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEA5D7A2BA2F35000EB8D5A /* Build configuration list for PBXNativeTarget "CheckEVDay" */;
+			buildPhases = (
+				5FEA5D502BA2F34D00EB8D5A /* Sources */,
+				5FEA5D512BA2F34D00EB8D5A /* Frameworks */,
+				5FEA5D522BA2F34D00EB8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckEVDay;
+			productName = CheckEVDay;
+			productReference = 5FEA5D542BA2F34D00EB8D5A /* CheckEVDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FEA5D652BA2F35000EB8D5A /* CheckEVDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEA5D7D2BA2F35000EB8D5A /* Build configuration list for PBXNativeTarget "CheckEVDayTests" */;
+			buildPhases = (
+				5FEA5D622BA2F35000EB8D5A /* Sources */,
+				5FEA5D632BA2F35000EB8D5A /* Frameworks */,
+				5FEA5D642BA2F35000EB8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FEA5D682BA2F35000EB8D5A /* PBXTargetDependency */,
+			);
+			name = CheckEVDayTests;
+			productName = CheckEVDayTests;
+			productReference = 5FEA5D662BA2F35000EB8D5A /* CheckEVDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FEA5D6F2BA2F35000EB8D5A /* CheckEVDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEA5D802BA2F35000EB8D5A /* Build configuration list for PBXNativeTarget "CheckEVDayUITests" */;
+			buildPhases = (
+				5FEA5D6C2BA2F35000EB8D5A /* Sources */,
+				5FEA5D6D2BA2F35000EB8D5A /* Frameworks */,
+				5FEA5D6E2BA2F35000EB8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FEA5D722BA2F35000EB8D5A /* PBXTargetDependency */,
+			);
+			name = CheckEVDayUITests;
+			productName = CheckEVDayUITests;
+			productReference = 5FEA5D702BA2F35000EB8D5A /* CheckEVDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FEA5D4C2BA2F34D00EB8D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5FEA5D532BA2F34D00EB8D5A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5FEA5D652BA2F35000EB8D5A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5FEA5D532BA2F34D00EB8D5A;
+					};
+					5FEA5D6F2BA2F35000EB8D5A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5FEA5D532BA2F34D00EB8D5A;
+					};
+				};
+			};
+			buildConfigurationList = 5FEA5D4F2BA2F34D00EB8D5A /* Build configuration list for PBXProject "CheckEVDay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FEA5D4B2BA2F34D00EB8D5A;
+			productRefGroup = 5FEA5D552BA2F34D00EB8D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FEA5D532BA2F34D00EB8D5A /* CheckEVDay */,
+				5FEA5D652BA2F35000EB8D5A /* CheckEVDayTests */,
+				5FEA5D6F2BA2F35000EB8D5A /* CheckEVDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FEA5D522BA2F34D00EB8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEA5D612BA2F34F00EB8D5A /* Preview Assets.xcassets in Resources */,
+				5FEA5D5E2BA2F34F00EB8D5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEA5D642BA2F35000EB8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEA5D6E2BA2F35000EB8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FEA5D502BA2F34D00EB8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEA5D5A2BA2F34D00EB8D5A /* ContentView.swift in Sources */,
+				5FEA5D5C2BA2F34D00EB8D5A /* Item.swift in Sources */,
+				5FEA5D582BA2F34D00EB8D5A /* CheckEVDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEA5D622BA2F35000EB8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEA5D6B2BA2F35000EB8D5A /* CheckEVDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FEA5D6C2BA2F35000EB8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEA5D752BA2F35000EB8D5A /* CheckEVDayUITests.swift in Sources */,
+				5FEA5D772BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FEA5D682BA2F35000EB8D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEA5D532BA2F34D00EB8D5A /* CheckEVDay */;
+			targetProxy = 5FEA5D672BA2F35000EB8D5A /* PBXContainerItemProxy */;
+		};
+		5FEA5D722BA2F35000EB8D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FEA5D532BA2F34D00EB8D5A /* CheckEVDay */;
+			targetProxy = 5FEA5D712BA2F35000EB8D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FEA5D782BA2F35000EB8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FEA5D792BA2F35000EB8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FEA5D7B2BA2F35000EB8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckEVDay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lisa-park.CheckEVDay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FEA5D7C2BA2F35000EB8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckEVDay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lisa-park.CheckEVDay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FEA5D7E2BA2F35000EB8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lisa-park.CheckEVDayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckEVDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckEVDay";
+			};
+			name = Debug;
+		};
+		5FEA5D7F2BA2F35000EB8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lisa-park.CheckEVDayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckEVDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckEVDay";
+			};
+			name = Release;
+		};
+		5FEA5D812BA2F35000EB8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lisa-park.CheckEVDayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckEVDay;
+			};
+			name = Debug;
+		};
+		5FEA5D822BA2F35000EB8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lisa-park.CheckEVDayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckEVDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FEA5D4F2BA2F34D00EB8D5A /* Build configuration list for PBXProject "CheckEVDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEA5D782BA2F35000EB8D5A /* Debug */,
+				5FEA5D792BA2F35000EB8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEA5D7A2BA2F35000EB8D5A /* Build configuration list for PBXNativeTarget "CheckEVDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEA5D7B2BA2F35000EB8D5A /* Debug */,
+				5FEA5D7C2BA2F35000EB8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEA5D7D2BA2F35000EB8D5A /* Build configuration list for PBXNativeTarget "CheckEVDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEA5D7E2BA2F35000EB8D5A /* Debug */,
+				5FEA5D7F2BA2F35000EB8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FEA5D802BA2F35000EB8D5A /* Build configuration list for PBXNativeTarget "CheckEVDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FEA5D812BA2F35000EB8D5A /* Debug */,
+				5FEA5D822BA2F35000EB8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FEA5D4C2BA2F34D00EB8D5A /* Project object */;
+}
