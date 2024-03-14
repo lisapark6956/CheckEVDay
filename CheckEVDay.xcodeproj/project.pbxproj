@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		5FEA5D582BA2F34D00EB8D5A /* CheckEVDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */; };
-		5FEA5D5A2BA2F34D00EB8D5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D592BA2F34D00EB8D5A /* ContentView.swift */; };
+		5FEA5D5A2BA2F34D00EB8D5A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D592BA2F34D00EB8D5A /* MainView.swift */; };
 		5FEA5D5C2BA2F34D00EB8D5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D5B2BA2F34D00EB8D5A /* Item.swift */; };
 		5FEA5D5E2BA2F34F00EB8D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */; };
 		5FEA5D612BA2F34F00EB8D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEA5D602BA2F34F00EB8D5A /* Preview Assets.xcassets */; };
 		5FEA5D6B2BA2F35000EB8D5A /* CheckEVDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D6A2BA2F35000EB8D5A /* CheckEVDayTests.swift */; };
 		5FEA5D752BA2F35000EB8D5A /* CheckEVDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D742BA2F35000EB8D5A /* CheckEVDayUITests.swift */; };
 		5FEA5D772BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D762BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift */; };
+		5FEA5D852BA2F4F100EB8D5A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5FEA5D842BA2F4F100EB8D5A /* FirebaseAuth */; };
+		5FEA5D872BA2F4F100EB8D5A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5FEA5D862BA2F4F100EB8D5A /* FirebaseFirestore */; };
+		5FEA5D892BA2F4F100EB8D5A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5FEA5D882BA2F4F100EB8D5A /* FirebaseFirestoreSwift */; };
+		5FEA5D8B2BA2F81D00EB8D5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FEA5D8A2BA2F81D00EB8D5A /* GoogleService-Info.plist */; };
+		5FEA5D912BA2FD1B00EB8D5A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D902BA2FD1B00EB8D5A /* ProfileView.swift */; };
+		5FEA5D932BA2FD4E00EB8D5A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D922BA2FD4E00EB8D5A /* ListView.swift */; };
+		5FEA5D952BA2FD9400EB8D5A /* NewitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D942BA2FD9400EB8D5A /* NewitemView.swift */; };
+		5FEA5D972BA2FDA100EB8D5A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D962BA2FDA100EB8D5A /* LoginView.swift */; };
+		5FEA5D992BA2FDE400EB8D5A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D982BA2FDE400EB8D5A /* RegisterView.swift */; };
+		5FEA5D9B2BA2FE1100EB8D5A /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D9A2BA2FE1100EB8D5A /* ListItemView.swift */; };
+		5FEA5D9D2BA2FE5800EB8D5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D9C2BA2FE5800EB8D5A /* User.swift */; };
+		5FEA5D9F2BA2FE6E00EB8D5A /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5D9E2BA2FE6E00EB8D5A /* ListItem.swift */; };
+		5FEA5DA12BA2FEAC00EB8D5A /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DA02BA2FEAC00EB8D5A /* MainViewViewModel.swift */; };
+		5FEA5DA32BA2FEC500EB8D5A /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DA22BA2FEC500EB8D5A /* ProfileViewViewModel.swift */; };
+		5FEA5DA52BA2FEE100EB8D5A /* ListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DA42BA2FEE100EB8D5A /* ListViewViewModel.swift */; };
+		5FEA5DA72BA2FEF300EB8D5A /* NewitemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DA62BA2FEF300EB8D5A /* NewitemViewViewModel.swift */; };
+		5FEA5DA92BA2FF0100EB8D5A /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DA82BA2FF0100EB8D5A /* LoginViewViewModel.swift */; };
+		5FEA5DAB2BA2FF1200EB8D5A /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DAA2BA2FF1200EB8D5A /* RegisterViewViewModel.swift */; };
+		5FEA5DAD2BA2FF2900EB8D5A /* ListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DAC2BA2FF2900EB8D5A /* ListItemViewViewModel.swift */; };
+		5FEA5DAF2BA3037B00EB8D5A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DAE2BA3037B00EB8D5A /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +57,7 @@
 /* Begin PBXFileReference section */
 		5FEA5D542BA2F34D00EB8D5A /* CheckEVDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckEVDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayApp.swift; sourceTree = "<group>"; };
-		5FEA5D592BA2F34D00EB8D5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FEA5D592BA2F34D00EB8D5A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5FEA5D5B2BA2F34D00EB8D5A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FEA5D602BA2F34F00EB8D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +66,23 @@
 		5FEA5D702BA2F35000EB8D5A /* CheckEVDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckEVDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEA5D742BA2F35000EB8D5A /* CheckEVDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayUITests.swift; sourceTree = "<group>"; };
 		5FEA5D762BA2F35000EB8D5A /* CheckEVDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEVDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FEA5D8A2BA2F81D00EB8D5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FEA5D902BA2FD1B00EB8D5A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5FEA5D922BA2FD4E00EB8D5A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5FEA5D942BA2FD9400EB8D5A /* NewitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewitemView.swift; sourceTree = "<group>"; };
+		5FEA5D962BA2FDA100EB8D5A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5FEA5D982BA2FDE400EB8D5A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		5FEA5D9A2BA2FE1100EB8D5A /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		5FEA5D9C2BA2FE5800EB8D5A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5FEA5D9E2BA2FE6E00EB8D5A /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		5FEA5DA02BA2FEAC00EB8D5A /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DA22BA2FEC500EB8D5A /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DA42BA2FEE100EB8D5A /* ListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DA62BA2FEF300EB8D5A /* NewitemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewitemViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DA82BA2FF0100EB8D5A /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DAA2BA2FF1200EB8D5A /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DAC2BA2FF2900EB8D5A /* ListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewViewModel.swift; sourceTree = "<group>"; };
+		5FEA5DAE2BA3037B00EB8D5A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEA5D852BA2F4F100EB8D5A /* FirebaseAuth in Frameworks */,
+				5FEA5D872BA2F4F100EB8D5A /* FirebaseFirestore in Frameworks */,
+				5FEA5D892BA2F4F100EB8D5A /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +136,11 @@
 		5FEA5D562BA2F34D00EB8D5A /* CheckEVDay */ = {
 			isa = PBXGroup;
 			children = (
-				5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */,
-				5FEA5D592BA2F34D00EB8D5A /* ContentView.swift */,
+				5FEA5D8F2BA2FB6300EB8D5A /* Other */,
+				5FEA5D8E2BA2FB4F00EB8D5A /* Models */,
+				5FEA5D8D2BA2FB3E00EB8D5A /* ViewModels */,
+				5FEA5D8C2BA2FB2E00EB8D5A /* Views */,
 				5FEA5D5B2BA2F34D00EB8D5A /* Item.swift */,
-				5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */,
 				5FEA5D5F2BA2F34F00EB8D5A /* Preview Content */,
 			);
 			path = CheckEVDay;
@@ -130,6 +171,54 @@
 			path = CheckEVDayUITests;
 			sourceTree = "<group>";
 		};
+		5FEA5D8C2BA2FB2E00EB8D5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D592BA2F34D00EB8D5A /* MainView.swift */,
+				5FEA5D902BA2FD1B00EB8D5A /* ProfileView.swift */,
+				5FEA5D922BA2FD4E00EB8D5A /* ListView.swift */,
+				5FEA5D942BA2FD9400EB8D5A /* NewitemView.swift */,
+				5FEA5D962BA2FDA100EB8D5A /* LoginView.swift */,
+				5FEA5D982BA2FDE400EB8D5A /* RegisterView.swift */,
+				5FEA5D9A2BA2FE1100EB8D5A /* ListItemView.swift */,
+				5FEA5DAE2BA3037B00EB8D5A /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FEA5D8D2BA2FB3E00EB8D5A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5DA02BA2FEAC00EB8D5A /* MainViewViewModel.swift */,
+				5FEA5DA22BA2FEC500EB8D5A /* ProfileViewViewModel.swift */,
+				5FEA5DA42BA2FEE100EB8D5A /* ListViewViewModel.swift */,
+				5FEA5DA62BA2FEF300EB8D5A /* NewitemViewViewModel.swift */,
+				5FEA5DA82BA2FF0100EB8D5A /* LoginViewViewModel.swift */,
+				5FEA5DAA2BA2FF1200EB8D5A /* RegisterViewViewModel.swift */,
+				5FEA5DAC2BA2FF2900EB8D5A /* ListItemViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5FEA5D8E2BA2FB4F00EB8D5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D9C2BA2FE5800EB8D5A /* User.swift */,
+				5FEA5D9E2BA2FE6E00EB8D5A /* ListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FEA5D8F2BA2FB6300EB8D5A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */,
+				5FEA5D8A2BA2F81D00EB8D5A /* GoogleService-Info.plist */,
+				5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +235,11 @@
 			dependencies = (
 			);
 			name = CheckEVDay;
+			packageProductDependencies = (
+				5FEA5D842BA2F4F100EB8D5A /* FirebaseAuth */,
+				5FEA5D862BA2F4F100EB8D5A /* FirebaseFirestore */,
+				5FEA5D882BA2F4F100EB8D5A /* FirebaseFirestoreSwift */,
+			);
 			productName = CheckEVDay;
 			productReference = 5FEA5D542BA2F34D00EB8D5A /* CheckEVDay.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +312,9 @@
 				Base,
 			);
 			mainGroup = 5FEA5D4B2BA2F34D00EB8D5A;
+			packageReferences = (
+				5FEA5D832BA2F4F100EB8D5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5FEA5D552BA2F34D00EB8D5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +333,7 @@
 			files = (
 				5FEA5D612BA2F34F00EB8D5A /* Preview Assets.xcassets in Resources */,
 				5FEA5D5E2BA2F34F00EB8D5A /* Assets.xcassets in Resources */,
+				5FEA5D8B2BA2F81D00EB8D5A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +358,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FEA5D5A2BA2F34D00EB8D5A /* ContentView.swift in Sources */,
+				5FEA5DAD2BA2FF2900EB8D5A /* ListItemViewViewModel.swift in Sources */,
+				5FEA5D9B2BA2FE1100EB8D5A /* ListItemView.swift in Sources */,
+				5FEA5D932BA2FD4E00EB8D5A /* ListView.swift in Sources */,
+				5FEA5DAB2BA2FF1200EB8D5A /* RegisterViewViewModel.swift in Sources */,
+				5FEA5DA12BA2FEAC00EB8D5A /* MainViewViewModel.swift in Sources */,
+				5FEA5DA92BA2FF0100EB8D5A /* LoginViewViewModel.swift in Sources */,
+				5FEA5DAF2BA3037B00EB8D5A /* HeaderView.swift in Sources */,
+				5FEA5DA32BA2FEC500EB8D5A /* ProfileViewViewModel.swift in Sources */,
+				5FEA5D972BA2FDA100EB8D5A /* LoginView.swift in Sources */,
+				5FEA5D912BA2FD1B00EB8D5A /* ProfileView.swift in Sources */,
+				5FEA5D9F2BA2FE6E00EB8D5A /* ListItem.swift in Sources */,
+				5FEA5DA72BA2FEF300EB8D5A /* NewitemViewViewModel.swift in Sources */,
+				5FEA5D952BA2FD9400EB8D5A /* NewitemView.swift in Sources */,
+				5FEA5D5A2BA2F34D00EB8D5A /* MainView.swift in Sources */,
+				5FEA5D992BA2FDE400EB8D5A /* RegisterView.swift in Sources */,
 				5FEA5D5C2BA2F34D00EB8D5A /* Item.swift in Sources */,
+				5FEA5D9D2BA2FE5800EB8D5A /* User.swift in Sources */,
 				5FEA5D582BA2F34D00EB8D5A /* CheckEVDayApp.swift in Sources */,
+				5FEA5DA52BA2FEE100EB8D5A /* ListViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +542,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CheckEVDay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckEVDay;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,11 +570,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CheckEVDay/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckEVDay;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,6 +700,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FEA5D832BA2F4F100EB8D5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FEA5D842BA2F4F100EB8D5A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FEA5D832BA2F4F100EB8D5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5FEA5D862BA2F4F100EB8D5A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FEA5D832BA2F4F100EB8D5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5FEA5D882BA2F4F100EB8D5A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FEA5D832BA2F4F100EB8D5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5FEA5D4C2BA2F34D00EB8D5A /* Project object */;
 }
