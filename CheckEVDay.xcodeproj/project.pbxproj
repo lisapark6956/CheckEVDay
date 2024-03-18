@@ -35,6 +35,8 @@
 		5FEA5DAB2BA2FF1200EB8D5A /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DAA2BA2FF1200EB8D5A /* RegisterViewViewModel.swift */; };
 		5FEA5DAD2BA2FF2900EB8D5A /* ListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DAC2BA2FF2900EB8D5A /* ListItemViewViewModel.swift */; };
 		5FEA5DAF2BA3037B00EB8D5A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DAE2BA3037B00EB8D5A /* HeaderView.swift */; };
+		5FEA5DB12BA823BA00EB8D5A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DB02BA823BA00EB8D5A /* TLButton.swift */; };
+		5FEA5DB32BA82E2A00EB8D5A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA5DB22BA82E2A00EB8D5A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		5FEA5DAA2BA2FF1200EB8D5A /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		5FEA5DAC2BA2FF2900EB8D5A /* ListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewViewModel.swift; sourceTree = "<group>"; };
 		5FEA5DAE2BA3037B00EB8D5A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5FEA5DB02BA823BA00EB8D5A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		5FEA5DB22BA82E2A00EB8D5A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 				5FEA5D982BA2FDE400EB8D5A /* RegisterView.swift */,
 				5FEA5D9A2BA2FE1100EB8D5A /* ListItemView.swift */,
 				5FEA5DAE2BA3037B00EB8D5A /* HeaderView.swift */,
+				5FEA5DB02BA823BA00EB8D5A /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				5FEA5D5D2BA2F34F00EB8D5A /* Assets.xcassets */,
 				5FEA5D8A2BA2F81D00EB8D5A /* GoogleService-Info.plist */,
 				5FEA5D572BA2F34D00EB8D5A /* CheckEVDayApp.swift */,
+				5FEA5DB22BA82E2A00EB8D5A /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -367,9 +373,11 @@
 				5FEA5DAF2BA3037B00EB8D5A /* HeaderView.swift in Sources */,
 				5FEA5DA32BA2FEC500EB8D5A /* ProfileViewViewModel.swift in Sources */,
 				5FEA5D972BA2FDA100EB8D5A /* LoginView.swift in Sources */,
+				5FEA5DB12BA823BA00EB8D5A /* TLButton.swift in Sources */,
 				5FEA5D912BA2FD1B00EB8D5A /* ProfileView.swift in Sources */,
 				5FEA5D9F2BA2FE6E00EB8D5A /* ListItem.swift in Sources */,
 				5FEA5DA72BA2FEF300EB8D5A /* NewitemViewViewModel.swift in Sources */,
+				5FEA5DB32BA82E2A00EB8D5A /* Extensions.swift in Sources */,
 				5FEA5D952BA2FD9400EB8D5A /* NewitemView.swift in Sources */,
 				5FEA5D5A2BA2F34D00EB8D5A /* MainView.swift in Sources */,
 				5FEA5D992BA2FDE400EB8D5A /* RegisterView.swift in Sources */,
