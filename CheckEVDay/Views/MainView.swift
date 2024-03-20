@@ -33,6 +33,7 @@ struct MainView: View {
                           systemImage: "person.circle")
                 }
         }
+        .tint(Color.purple)
     }
 }
 
